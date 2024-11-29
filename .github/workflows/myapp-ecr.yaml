@@ -39,5 +39,6 @@ jobs:
           docker push $ECR_REGISTRY/$REPO_NAME:$IMAGE_TAG
           docker tag $ECR_REGISTRY/$REPO_NAME:$IMAGE_TAG $ECR_REGISTRY/$REPO_NAME:latest
           docker push $ECR_REGISTRY/$REPO_NAME:latest
-          curl -X POST https://portainer.offertrack.xyz/api/webhooks/2ac43236-d359-42c0-a8ec-5c564a9b9d61
+          curl -X POST https://portainer.offertrack.xyz/api/webhooks/71644914-a1c2-4674-9dcc-8c6bd92b82b3
+          
         
