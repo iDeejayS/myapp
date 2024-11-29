@@ -15,7 +15,7 @@ namespace myapp
             {
                 if (_logger.IsEnabled(LogLevel.Information))
                 {
-                    _logger.LogInformation("Worker running at ({path}}): {time}", Environment.CurrentDirectory, DateTimeOffset.Now);
+                    _logger.LogInformation("Worker running at ({path}): {time}", Environment.CurrentDirectory, DateTimeOffset.Now);
                 }
                 await Task.Delay(1000, stoppingToken);
             }
